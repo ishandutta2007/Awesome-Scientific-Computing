@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" width="100%" height="260" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0e1726"/>
+      <stop offset="100%" stop-color="#070b14"/>
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <!-- Wave 1 Gradient -->
+    <linearGradient id="wave1Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <!-- Wave 2 Gradient -->
+    <linearGradient id="wave2Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#ec4899" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <!-- Pill Gradient -->
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="textShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.8" />
+    </filter>
+
+    <style>
+      .bg-rect { fill: url(#bgGrad); }
+      
+      /* Dynamic Animated Waves */
+      .wave-path-1 {
+        fill: none;
+        stroke: url(#wave1Grad);
+        stroke-width: 2.5;
+        stroke-dasharray: 20 8;
+        animation: waveFlow 25s linear infinite;
+      }
+      
+      .wave-path-2 {
+        fill: none;
+        stroke: url(#wave2Grad);
+        stroke-width: 2;
+        stroke-dasharray: 14 6;
+        animation: waveFlowRev 20s linear infinite;
+      }
+
+      .grid-line {
+        stroke: #334155;
+        stroke-opacity: 0.2;
+        stroke-width: 1;
+      }
+
+      /* Animated Mathematical Particle Floaters */
+      .math-symbol {
+        font-family: 'Cambria Math', 'Times New Roman', serif;
+        fill: #38bdf8;
+        font-size: 22px;
+        opacity: 0.25;
+        user-select: none;
+      }
+
+      .float-1 { animation: floatSlow 6s ease-in-out infinite alternate; }
+      .float-2 { animation: floatMed 8s ease-in-out infinite alternate; }
+      .float-3 { animation: floatFast 7s ease-in-out infinite alternate; }
+      .pulse-glow { animation: pulseGlow 4s ease-in-out infinite alternate; }
+
+      @keyframes waveFlow {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 600; }
+      }
+
+      @keyframes waveFlowRev {
+        0% { stroke-dashoffset: 600; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      @keyframes floatSlow {
+        0% { transform: translateY(0px) rotate(0deg); opacity: 0.15; }
+        100% { transform: translateY(-12px) rotate(6deg); opacity: 0.35; }
+      }
+
+      @keyframes floatMed {
+        0% { transform: translateY(0px) scale(0.95); opacity: 0.2; }
+        100% { transform: translateY(-16px) scale(1.05); opacity: 0.4; }
+      }
+
+      @keyframes floatFast {
+        0% { transform: translateY(0px); opacity: 0.18; }
+        100% { transform: translateY(-10px); opacity: 0.38; }
+      }
+
+      @keyframes pulseGlow {
+        0% { opacity: 0.3; }
+        100% { opacity: 0.7; }
+      }
+
+      .title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+        fill: url(#titleGrad);
+        filter: url(#textShadow);
+      }
+
+      .subtitle {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+        fill: #94a3b8;
+        filter: url(#textShadow);
+      }
+
+      .badge-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        fill: #cbd5e1;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="960" height="260" rx="16" class="bg-rect" />
+
+  <!-- Background Geometric Grid -->
+  <g class="grid-layer">
+    <line x1="0" y1="52" x2="960" y2="52" class="grid-line" />
+    <line x1="0" y1="104" x2="960" y2="104" class="grid-line" />
+    <line x1="0" y1="156" x2="960" y2="156" class="grid-line" />
+    <line x1="0" y1="208" x2="960" y2="208" class="grid-line" />
+    <line x1="160" y1="0" x2="160" y2="260" class="grid-line" />
+    <line x1="320" y1="0" x2="320" y2="260" class="grid-line" />
+    <line x1="480" y1="0" x2="480" y2="260" class="grid-line" />
+    <line x1="640" y1="0" x2="640" y2="260" class="grid-line" />
+    <line x1="800" y1="0" x2="800" y2="260" class="grid-line" />
+  </g>
+
+  <!-- Dynamic Waves (Sinusoids & Computational Curves) -->
+  <g class="dynamic-waves">
+    <path class="wave-path-1" d="M -50 180 Q 90 120 220 180 T 520 170 T 800 190 T 1020 160" />
+    <path class="wave-path-2" d="M -50 210 Q 140 250 300 200 T 600 220 T 850 195 T 1020 215" />
+    <path class="wave-path-1" d="M -50 70 Q 160 30 360 80 T 720 60 T 1020 75" opacity="0.4" />
+  </g>
+
+  <!-- Subtle Ambient Glow Orbs -->
+  <circle cx="200" cy="60" r="120" fill="#38bdf8" opacity="0.06" filter="url(#glow)" class="pulse-glow" />
+  <circle cx="760" cy="190" r="140" fill="#818cf8" opacity="0.07" filter="url(#glow)" class="pulse-glow" />
+
+  <!-- Background Floating Math Symbols (positioned out of the way of central title) -->
+  <g class="math-particles">
+    <text x="80" y="80" class="math-symbol float-1">∫ f(x) dx</text>
+    <text x="830" y="75" class="math-symbol float-2">∇ · E = ρ</text>
+    <text x="95" y="195" class="math-symbol float-3">∑ λᵢ vᵢ</text>
+    <text x="825" y="195" class="math-symbol float-1">∂u/∂t = α∇²u</text>
+    <text x="40" y="140" class="math-symbol float-2">π</text>
+    <text x="910" y="135" class="math-symbol float-3">eⁱᶿ</text>
+  </g>
+
+  <!-- FOREGROUND LAYER: Content strictly positioned and protected against overlaps -->
+  <g id="foreground-content" transform="translate(0, 0)">
+    <!-- Category Pill Badge -->
+    <g transform="translate(480, 48)">
+      <rect x="-145" y="-14" width="290" height="28" rx="14" fill="url(#pillGrad)" stroke="#334155" stroke-width="1.2" />
+      <circle cx="-125" cy="0" r="4.5" fill="#38bdf8" />
+      <text x="0" y="4" text-anchor="middle" class="badge-text" fill="#38bdf8" letter-spacing="0.5">TOP SCIENTIFIC COMPUTING ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="480" y="112" text-anchor="middle" class="title">Awesome Scientific Computing</text>
+
+    <!-- Subtitle -->
+    <text x="480" y="146" text-anchor="middle" class="subtitle">
+      Curated Index of SaaS Platforms &amp; High-Performance Open-Source Ecosystems
+    </text>
+
+    <!-- Feature Pills in Bottom Foreground -->
+    <g transform="translate(480, 192)">
+      <!-- Pill 1: Numerical Arrays -->
+      <g transform="translate(-255, 0)">
+        <rect x="-65" y="-12" width="130" height="24" rx="12" fill="#1e293b" fill-opacity="0.85" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
+        <text x="0" y="4" text-anchor="middle" class="badge-text">⚡ Numerical Arrays</text>
+      </g>
+      <!-- Pill 2: Symbolic Math -->
+      <g transform="translate(-85, 0)">
+        <rect x="-65" y="-12" width="130" height="24" rx="12" fill="#1e293b" fill-opacity="0.85" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1"/>
+        <text x="0" y="4" text-anchor="middle" class="badge-text">🧮 Symbolic Math</text>
+      </g>
+      <!-- Pill 3: Statistical Modeling -->
+      <g transform="translate(85, 0)">
+        <rect x="-70" y="-12" width="140" height="24" rx="12" fill="#1e293b" fill-opacity="0.85" stroke="#c084fc" stroke-opacity="0.4" stroke-width="1"/>
+        <text x="0" y="4" text-anchor="middle" class="badge-text">📊 Statistical Analysis</text>
+      </g>
+      <!-- Pill 4: HPC & Simulation -->
+      <g transform="translate(255, 0)">
+        <rect x="-65" y="-12" width="130" height="24" rx="12" fill="#1e293b" fill-opacity="0.85" stroke="#34d399" stroke-opacity="0.4" stroke-width="1"/>
+        <text x="0" y="4" text-anchor="middle" class="badge-text">🚀 HPC &amp; Solvers</text>
+      </g>
+    </g>
+  </g>
+</svg>
