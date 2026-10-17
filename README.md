@@ -65,106 +65,106 @@ Below is a detailed comparison of industry-standard commercial scientific comput
 ## 🔓 Open-Source Scientific Computing Ecosystem
 
 The open-source numerical ecosystem forms the foundational engine for modern research, AI, and scientific breakthroughs.  
-Every repository below includes a social star badge linking directly to its GitHub stargazers page.
+Every repository below includes a social Stars_Badge linking directly to its GitHub stargazers page.
 
 ### ⭐ Top Repositories by Popularity
 
 *Sorted in descending order by GitHub stargazers.*
 
-1. **[scikit-learn](https://github.com/scikit-learn/scikit-learn)** [![GitHub stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social&color=white)](https://github.com/scikit-learn/scikit-learn/stargazers)  
+1. **[scikit-learn](https://github.com/scikit-learn/scikit-learn)** [![GitHub_Stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social&color=white)](https://github.com/scikit-learn/scikit-learn/stargazers)  
    **The premier machine learning library for Python** — BSD-3-Clause licensed. Delivers unified, battle-tested algorithms for classification, regression, clustering, dimensionality reduction, model evaluation, and dataset preprocessing across research disciplines.
 
-2. **[pandas](https://github.com/pandas-dev/pandas)** [![GitHub stars](https://img.shields.io/github/stars/pandas-dev/pandas?style=social&color=white)](https://github.com/pandas-dev/pandas/stargazers)  
+2. **[pandas](https://github.com/pandas-dev/pandas)** [![GitHub_Stars](https://img.shields.io/github/stars/pandas-dev/pandas?style=social&color=white)](https://github.com/pandas-dev/pandas/stargazers)  
    **The foundational tabular data analysis library for Python** — BSD-3-Clause licensed. Provides fast `DataFrame` and `Series` structures with labeled indexing, multi-dimensional alignment, flexible group-by aggregations, time-series mechanics, and data wrangling utilities.
 
-3. **[Julia](https://github.com/JuliaLang/julia)** [![GitHub stars](https://img.shields.io/github/stars/JuliaLang/julia?style=social&color=white)](https://github.com/JuliaLang/julia/stargazers)  
+3. **[Julia](https://github.com/JuliaLang/julia)** [![GitHub_Stars](https://img.shields.io/github/stars/JuliaLang/julia?style=social&color=white)](https://github.com/JuliaLang/julia/stargazers)  
    **High-performance dynamic language for technical computing** — MIT licensed. Solves the "two-language problem" by marrying Python-like expressive mathematical syntax with C-speed via LLVM JIT compilation and multiple dispatch. The primary modern alternative to MATLAB in aerospace, finance, and climate modeling.
 
-4. **[Polars](https://github.com/pola-rs/polars)** [![GitHub stars](https://img.shields.io/github/stars/pola-rs/polars?style=social&color=white)](https://github.com/pola-rs/polars/stargazers)  
+4. **[Polars](https://github.com/pola-rs/polars)** [![GitHub_Stars](https://img.shields.io/github/stars/pola-rs/polars?style=social&color=white)](https://github.com/pola-rs/polars/stargazers)  
    **Blazingly fast multi-threaded DataFrame engine** — MIT licensed. Written in Rust on top of the Apache Arrow columnar format. Provides lazy evaluation, query optimization, vectorized SIMD execution, and out-of-core streaming for heavy datasets.
 
-5. **[JAX](https://github.com/jax-ml/jax)** [![GitHub stars](https://img.shields.io/github/stars/jax-ml/jax?style=social&color=white)](https://github.com/jax-ml/jax/stargazers)  
+5. **[JAX](https://github.com/jax-ml/jax)** [![GitHub_Stars](https://img.shields.io/github/stars/jax-ml/jax?style=social&color=white)](https://github.com/jax-ml/jax/stargazers)  
    **Composable transformations of Python+NumPy programs** — Apache-2.0 licensed. Developed by Google, JAX offers reverse-mode and forward-mode automatic differentiation (`grad`), vectorization (`vmap`), parallelization (`pmap`), and JIT compilation via XLA for accelerators.
 
-6. **[NumPy](https://github.com/numpy/numpy)** [![GitHub stars](https://img.shields.io/github/stars/numpy/numpy?style=social&color=white)](https://github.com/numpy/numpy/stargazers)  
+6. **[NumPy](https://github.com/numpy/numpy)** [![GitHub_Stars](https://img.shields.io/github/stars/numpy/numpy?style=social&color=white)](https://github.com/numpy/numpy/stargazers)  
    **The fundamental package for scientific computing with Python** — BSD-3-Clause licensed. Introduces the contiguous N-dimensional `ndarray` data structure, vectorized broadcasting, linear algebra solvers (BLAS/LAPACK bindings), and random distribution generators.
 
-7. **[Matplotlib](https://github.com/matplotlib/matplotlib)** [![GitHub stars](https://img.shields.io/github/stars/matplotlib/matplotlib?style=social&color=white)](https://github.com/matplotlib/matplotlib/stargazers)  
+7. **[Matplotlib](https://github.com/matplotlib/matplotlib)** [![GitHub_Stars](https://img.shields.io/github/stars/matplotlib/matplotlib?style=social&color=white)](https://github.com/matplotlib/matplotlib/stargazers)  
    **The gold standard publication-quality plotting library** — PSF licensed. Provides complete, pixel-level control over scientific 2D and 3D figures, with multiple rendering backends for interactive desktops, web dashboards, and vector PDF/SVG publication exports.
 
-8. **[pybind11](https://github.com/pybind/pybind11)** [![GitHub stars](https://img.shields.io/github/stars/pybind/pybind11?style=social&color=white)](https://github.com/pybind/pybind11/stargazers)  
+8. **[pybind11](https://github.com/pybind/pybind11)** [![GitHub_Stars](https://img.shields.io/github/stars/pybind/pybind11?style=social&color=white)](https://github.com/pybind/pybind11/stargazers)  
    **Seamless operability between C++11 and Python** — BSD-3-Clause licensed. Header-only library used universally across scientific software to expose high-performance native C++ algorithms and NumPy buffers directly to Python.
 
-9. **[NetworkX](https://github.com/networkx/networkx)** [![GitHub stars](https://img.shields.io/github/stars/networkx/networkx?style=social&color=white)](https://github.com/networkx/networkx/stargazers)  
+9. **[NetworkX](https://github.com/networkx/networkx)** [![GitHub_Stars](https://img.shields.io/github/stars/networkx/networkx?style=social&color=white)](https://github.com/networkx/networkx/stargazers)  
    **Network analysis and complex graph theory in Python** — BSD-3-Clause licensed. Implements graph data structures, centrality measures, shortest paths, clustering coefficients, and random graph generators for biological and social network analysis.
 
-10. **[JupyterLab](https://github.com/jupyterlab/jupyterlab)** [![GitHub stars](https://img.shields.io/github/stars/jupyterlab/jupyterlab?style=social&color=white)](https://github.com/jupyterlab/jupyterlab/stargazers)  
+10. **[JupyterLab](https://github.com/jupyterlab/jupyterlab)** [![GitHub_Stars](https://img.shields.io/github/stars/jupyterlab/jupyterlab?style=social&color=white)](https://github.com/jupyterlab/jupyterlab/stargazers)  
     **Next-generation modular web-based interactive development environment** — BSD-3-Clause licensed. Extensible computational interface for notebooks, code editors, interactive terminals, data viewers, and collaborative research teams.
 
-11. **[SciPy](https://github.com/scipy/scipy)** [![GitHub stars](https://img.shields.io/github/stars/scipy/scipy?style=social&color=white)](https://github.com/scipy/scipy/stargazers)  
+11. **[SciPy](https://github.com/scipy/scipy)** [![GitHub_Stars](https://img.shields.io/github/stars/scipy/scipy?style=social&color=white)](https://github.com/scipy/scipy/stargazers)  
     **Core scientific algorithms library for Python** — BSD-3-Clause licensed. Features numerical routines for optimization (`scipy.optimize`), numerical integration (`scipy.integrate`), interpolation (`scipy.interpolate`), Fourier transforms, signal filtering, and statistics.
 
-12. **[SymPy](https://github.com/sympy/sympy)** [![GitHub stars](https://img.shields.io/github/stars/sympy/sympy?style=social&color=white)](https://github.com/sympy/sympy/stargazers)  
+12. **[SymPy](https://github.com/sympy/sympy)** [![GitHub_Stars](https://img.shields.io/github/stars/sympy/sympy?style=social&color=white)](https://github.com/sympy/sympy/stargazers)  
     **Computer algebra system (CAS) in pure Python** — BSD-3-Clause licensed. Evaluates exact symbolic mathematics, algebraic calculus, matrix expressions, Taylor expansions, and differential equations, with automated C/Fortran code generation.
 
-13. **[Dask](https://github.com/dask/dask)** [![GitHub stars](https://img.shields.io/github/stars/dask/dask?style=social&color=white)](https://github.com/dask/dask/stargazers)  
+13. **[Dask](https://github.com/dask/dask)** [![GitHub_Stars](https://img.shields.io/github/stars/dask/dask?style=social&color=white)](https://github.com/dask/dask/stargazers)  
     **Parallel computing with dynamic task scheduling** — BSD-3-Clause licensed. Scales NumPy arrays, pandas DataFrames, and custom task graphs across multi-core CPUs and distributed HPC clusters without modifying standard syntax.
 
-14. **[Jupyter Notebook](https://github.com/jupyter/notebook)** [![GitHub stars](https://img.shields.io/github/stars/jupyter/notebook?style=social&color=white)](https://github.com/jupyter/notebook/stargazers)  
+14. **[Jupyter Notebook](https://github.com/jupyter/notebook)** [![GitHub_Stars](https://img.shields.io/github/stars/jupyter/notebook?style=social&color=white)](https://github.com/jupyter/notebook/stargazers)  
     **The classic reproducible interactive notebook standard** — BSD-3-Clause licensed. Combines live code execution, rich narrative markdown, LaTeX mathematical notation, and interactive figures into a shareable document.
 
-15. **[CuPy](https://github.com/cupy/cupy)** [![GitHub stars](https://img.shields.io/github/stars/cupy/cupy?style=social&color=white)](https://github.com/cupy/cupy/stargazers)  
+15. **[CuPy](https://github.com/cupy/cupy)** [![GitHub_Stars](https://img.shields.io/github/stars/cupy/cupy?style=social&color=white)](https://github.com/cupy/cupy/stargazers)  
     **NumPy and SciPy for GPU acceleration** — MIT licensed. Delivers drop-in array operations executed directly on NVIDIA CUDA and AMD ROCm GPUs, achieving orders-of-magnitude acceleration for matrix operations and FFTs.
 
-16. **[statsmodels](https://github.com/statsmodels/statsmodels)** [![GitHub stars](https://img.shields.io/github/stars/statsmodels/statsmodels?style=social&color=white)](https://github.com/statsmodels/statsmodels/stargazers)  
+16. **[statsmodels](https://github.com/statsmodels/statsmodels)** [![GitHub_Stars](https://img.shields.io/github/stars/statsmodels/statsmodels?style=social&color=white)](https://github.com/statsmodels/statsmodels/stargazers)  
     **Statistical modeling and econometrics in Python** — BSD-3-Clause licensed. Specializes in statistical inference, ordinary least squares (OLS), generalized linear models (GLM), time-series analysis (ARIMA/VAR), and ANOVA tables.
 
-17. **[Numba](https://github.com/numba/numba)** [![GitHub stars](https://img.shields.io/github/stars/numba/numba?style=social&color=white)](https://github.com/numba/numba/stargazers)  
+17. **[Numba](https://github.com/numba/numba)** [![GitHub_Stars](https://img.shields.io/github/stars/numba/numba?style=social&color=white)](https://github.com/numba/numba/stargazers)  
     **LLVM-based JIT compiler for Python and NumPy** — BSD-2-Clause licensed. Decorates computational Python functions with `@jit` to generate native machine code on the fly, eliminating Python loop overhead for scientific numerical algorithms.
 
-18. **[PyMC](https://github.com/pymc-devs/pymc)** [![GitHub stars](https://img.shields.io/github/stars/pymc-devs/pymc?style=social&color=white)](https://github.com/pymc-devs/pymc/stargazers)  
+18. **[PyMC](https://github.com/pymc-devs/pymc)** [![GitHub_Stars](https://img.shields.io/github/stars/pymc-devs/pymc?style=social&color=white)](https://github.com/pymc-devs/pymc/stargazers)  
     **Bayesian modeling and probabilistic programming in Python** — Apache-2.0 licensed. Enables intuitive statistical model specification and parameter inference using Hamiltonian Monte Carlo (HMC) and the No-U-Turn Sampler (NUTS).
 
-19. **[Qiskit](https://github.com/Qiskit/qiskit)** [![GitHub stars](https://img.shields.io/github/stars/Qiskit/qiskit?style=social&color=white)](https://github.com/Qiskit/qiskit/stargazers)  
+19. **[Qiskit](https://github.com/Qiskit/qiskit)** [![GitHub_Stars](https://img.shields.io/github/stars/Qiskit/qiskit?style=social&color=white)](https://github.com/Qiskit/qiskit/stargazers)  
     **Quantum scientific computing SDK** — Apache-2.0 licensed. Open-source framework for building, optimizing, and simulating quantum circuits, quantum information algorithms, and interfacing with physical superconducting quantum processors.
 
-20. **[OpenBLAS](https://github.com/OpenMathLib/OpenBLAS)** [![GitHub stars](https://img.shields.io/github/stars/OpenMathLib/OpenBLAS?style=social&color=white)](https://github.com/OpenMathLib/OpenBLAS/stargazers)  
+20. **[OpenBLAS](https://github.com/OpenMathLib/OpenBLAS)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenMathLib/OpenBLAS?style=social&color=white)](https://github.com/OpenMathLib/OpenBLAS/stargazers)  
     **Optimized Basic Linear Algebra Subprograms (BLAS)** — BSD-3-Clause licensed. Hand-tuned assembly acceleration for matrix-matrix multiplication (GEMM), matrix factorizations, and vector operations across modern CPU architectures.
 
-21. **[Astropy](https://github.com/astropy/astropy)** [![GitHub stars](https://img.shields.io/github/stars/astropy/astropy?style=social&color=white)](https://github.com/astropy/astropy/stargazers)  
+21. **[Astropy](https://github.com/astropy/astropy)** [![GitHub_Stars](https://img.shields.io/github/stars/astropy/astropy?style=social&color=white)](https://github.com/astropy/astropy/stargazers)  
     **Astronomy and astrophysics core library for Python** — BSD-3-Clause licensed. Standardizes astronomical coordinate frames, physical units and constants manipulation, FITS file parsing, and cosmological distance modeling.
 
-22. **[Biopython](https://github.com/biopython/biopython)** [![GitHub stars](https://img.shields.io/github/stars/biopython/biopython?style=social&color=white)](https://github.com/biopython/biopython/stargazers)  
+22. **[Biopython](https://github.com/biopython/biopython)** [![GitHub_Stars](https://img.shields.io/github/stars/biopython/biopython?style=social&color=white)](https://github.com/biopython/biopython/stargazers)  
     **Computational biology and bioinformatics toolset** — Biopython License. Facilitates genetic sequence alignment, structural macromolecule (PDB) analysis, population genetics, and NCBI GenBank automated parsing.
 
-23. **[xarray](https://github.com/pydata/xarray)** [![GitHub stars](https://img.shields.io/github/stars/pydata/xarray?style=social&color=white)](https://github.com/pydata/xarray/stargazers)  
+23. **[xarray](https://github.com/pydata/xarray)** [![GitHub_Stars](https://img.shields.io/github/stars/pydata/xarray?style=social&color=white)](https://github.com/pydata/xarray/stargazers)  
     **N-dimensional labeled arrays and datasets** — Apache-2.0 licensed. Brings labeled dimensions, coordinate metadata, and vectorized split-apply-combine methods to multi-dimensional data in climate, weather, and geoscience research.
 
-24. **[DifferentialEquations.jl](https://github.com/SciML/DifferentialEquations.jl)** [![GitHub stars](https://img.shields.io/github/stars/SciML/DifferentialEquations.jl?style=social&color=white)](https://github.com/SciML/DifferentialEquations.jl/stargazers)  
+24. **[DifferentialEquations.jl](https://github.com/SciML/DifferentialEquations.jl)** [![GitHub_Stars](https://img.shields.io/github/stars/SciML/DifferentialEquations.jl?style=social&color=white)](https://github.com/SciML/DifferentialEquations.jl/stargazers)  
     **High-performance differential equation solvers in Julia** — MIT licensed. Multi-purpose numerical suite for solving ordinary (ODEs), stochastic (SDEs), delay (DDEs), and differential-algebraic equations (DAEs) with adjoint sensitivity analysis.
 
-25. **[Stan](https://github.com/stan-dev/stan)** [![GitHub stars](https://img.shields.io/github/stars/stan-dev/stan?style=social&color=white)](https://github.com/stan-dev/stan/stargazers)  
+25. **[Stan](https://github.com/stan-dev/stan)** [![GitHub_Stars](https://img.shields.io/github/stars/stan-dev/stan?style=social&color=white)](https://github.com/stan-dev/stan/stargazers)  
     **State-of-the-art probabilistic programming language** — BSD-3-Clause licensed. Employs advanced Markov Chain Monte Carlo methods for Bayesian statistical inference and parameter estimation with R, Python, and Julia interfaces.
 
-26. **[SageMath](https://github.com/sagemath/sage)** [![GitHub stars](https://img.shields.io/github/stars/sagemath/sage?style=social&color=white)](https://github.com/sagemath/sage/stargazers)  
+26. **[SageMath](https://github.com/sagemath/sage)** [![GitHub_Stars](https://img.shields.io/github/stars/sagemath/sage?style=social&color=white)](https://github.com/sagemath/sage/stargazers)  
     **Comprehensive open-source mathematics software system** — GPL-3.0 licensed. Combines dozens of mathematical engines (GAP, PARI/GP, Singular, Maxima, FLINT) under a single Python-based environment for pure and applied mathematics.
 
-27. **[Zarr](https://github.com/zarr-developers/zarr-python)** [![GitHub stars](https://img.shields.io/github/stars/zarr-developers/zarr-python?style=social&color=white)](https://github.com/zarr-developers/zarr-python/stargazers)  
+27. **[Zarr](https://github.com/zarr-developers/zarr-python)** [![GitHub_Stars](https://img.shields.io/github/stars/zarr-developers/zarr-python?style=social&color=white)](https://github.com/zarr-developers/zarr-python/stargazers)  
     **Chunked, compressed N-dimensional array storage** — MIT licensed. Cloud-optimized storage format for petabyte-scale numerical datasets across distributed storage backends (AWS S3, Google Cloud Storage, local NVMe).
 
-28. **[deal.II](https://github.com/dealii/dealii)** [![GitHub stars](https://img.shields.io/github/stars/dealii/dealii?style=social&color=white)](https://github.com/dealii/dealii/stargazers)  
+28. **[deal.II](https://github.com/dealii/dealii)** [![GitHub_Stars](https://img.shields.io/github/stars/dealii/dealii?style=social&color=white)](https://github.com/dealii/dealii/stargazers)  
     **Finite element differential equations library** — LGPL-2.1 licensed. C++ library designed for adaptive finite element simulations, hp-FEM, and massively parallel solvers on supercomputers.
 
-29. **[R Source (wch mirror)](https://github.com/wch/r-source)** [![GitHub stars](https://img.shields.io/github/stars/wch/r-source?style=social&color=white)](https://github.com/wch/r-source/stargazers)  
+29. **[R Source (wch mirror)](https://github.com/wch/r-source)** [![GitHub_Stars](https://img.shields.io/github/stars/wch/r-source?style=social&color=white)](https://github.com/wch/r-source/stargazers)  
     **The official source mirror for the R statistical computing language** — GPL-2.0 licensed. The bedrock of statistical research, epidemiological modeling, and the 20,000+ package CRAN repository.
 
-30. **[FEniCS / DOLFINx](https://github.com/FEniCS/dolfinx)** [![GitHub stars](https://img.shields.io/github/stars/FEniCS/dolfinx?style=social&color=white)](https://github.com/FEniCS/dolfinx/stargazers)  
+30. **[FEniCS / DOLFINx](https://github.com/FEniCS/dolfinx)** [![GitHub_Stars](https://img.shields.io/github/stars/FEniCS/dolfinx?style=social&color=white)](https://github.com/FEniCS/dolfinx/stargazers)  
     **Automated finite element PDE solvers** — LGPL-3.0 licensed. Translates variational PDE formulations written in mathematical notation into optimized C++ simulation kernels with Python interfaces.
 
-31. **[GNU Octave](https://github.com/gnu-octave/octave)** [![GitHub stars](https://img.shields.io/github/stars/gnu-octave/octave?style=social&color=white)](https://github.com/gnu-octave/octave/stargazers)  
+31. **[GNU Octave](https://github.com/gnu-octave/octave)** [![GitHub_Stars](https://img.shields.io/github/stars/gnu-octave/octave?style=social&color=white)](https://github.com/gnu-octave/octave/stargazers)  
     **Open-source scientific programming language compatible with MATLAB** — GPL-3.0 licensed. Offers extensive numerical linear algebra, ODE integrations, non-linear equation solvers, and scriptable plotting.
 
-32. **[PETSc](https://github.com/petsc/petsc)** [![GitHub stars](https://img.shields.io/github/stars/petsc/petsc?style=social&color=white)](https://github.com/petsc/petsc/stargazers)  
+32. **[PETSc](https://github.com/petsc/petsc)** [![GitHub_Stars](https://img.shields.io/github/stars/petsc/petsc?style=social&color=white)](https://github.com/petsc/petsc/stargazers)  
     **Portable, Extensible Toolkit for Scientific Computation** — BSD-2-Clause licensed. Provides scalable parallel linear and non-linear solvers, preconditioners, and time steppers for large-scale supercomputing applications.
 
 ---
@@ -192,7 +192,7 @@ Contributions are warmly welcomed! Help make this the most accurate and authorit
 2. Add or update entries in `README.md`.
 3. Ensure formatting matches the existing tables and bullet lists:
    - For SaaS tools: include verified, specific starting tier pricing and specific free trial / tier limits.
-   - For open-source repos: include official GitHub repository links and valid star badges with `style=social&color=white`.
+   - For open-source repos: include official GitHub repository links and valid Stars_Badges with `style=social&color=white`.
 4. Submit a **Pull Request** detailing your additions.
 
 ---
